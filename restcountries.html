@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Weather & Info</title>
+    <link rel="stylesheet" href="restcountries.css">
+</head>
+<body>
+
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section class="search-section">
+        <h1>Search Country Weather & Info</h1>
+        <input type="text" id="country-name" placeholder="Enter Country Name" />
+        <button onclick="fetchCountryData()">Search</button>
+    </section>
+
+    
+    <section class="results-section" id="results"></section>
+
+    
+    <footer>
+        <p>&copy; 2025 Country Info & Weather. All Rights Reserved.</p>
+    </footer>
+
+    <script src="restcountries.js"></script>
+</body>
+</html>
